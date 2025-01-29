@@ -4,6 +4,10 @@ const About = () => {
   return (
     <div className='h-screen w-full bg-blue-200 relative main  '>
 
+<div className='w-[50%] h-20  absolute bottom-0 left-[20%] rounded-2xl flex items-center justify-center Technology'> 
+  <h2 className=' text-4xl font-bold text-blue-400 '>Technology</h2>
+</div>
+
     <div className='h-[80%] w-[90%]  absolute top-[-3%] rounded-2xl left-[5%] about '>
       
        <div className='bg-[url(src/components/img/download.png)] bg-contain bg-center opacity-20 w-full h-full relative '></div>
