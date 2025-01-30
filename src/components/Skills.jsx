@@ -5,6 +5,13 @@ import { RiToolsFill } from "react-icons/ri";
 import { BsPeople } from "react-icons/bs";
 
 const Skills = () => {
+   let data = ()=>{
+
+   }
+
+   console.log();
+   
+
   return (
     <div className='w-full h-[80vh] flex justify-center '>
      
