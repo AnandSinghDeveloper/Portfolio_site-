@@ -77,6 +77,11 @@ input[type="range"]:focus {
   outline: none;
 }
 
+.project{
+  background: linear-gradient(0deg, rgba(22, 146, 228, 0.515) 5%, rgba(255, 255, 255, 0.844) 85%);
+
+}
+
 
 
 
