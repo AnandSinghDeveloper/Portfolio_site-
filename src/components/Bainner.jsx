@@ -7,7 +7,7 @@ const Bainner = () => {
     <div className='w-[40%] h-[50%]  '>
       <h2 className='text-3xl font-medium mx-10'> Hi There ,  </h2>
       <div className='text-4xl font-semibold mx-10 pt-3'> I'm <span className='text-blue-400'>Anand</span></div>
-      <h1 className=' text-5xl font-semibold mx-10 pt-3 text-[#105245]'>Full stack developer</h1>
+      <h1 className=' text-5xl font-semibold mx-10 pt-3 text-[#37ff00]'>Full stack developer</h1>
       
     </div>
 

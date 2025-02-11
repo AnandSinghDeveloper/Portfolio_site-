@@ -5,7 +5,7 @@ const About = () => {
     <div className='h-screen w-full bg-blue-200 relative main  '>
 
 <div className='w-[50%] h-20  absolute bottom-0 left-[20%] rounded-2xl flex items-center justify-center Technology'> 
-  <h2 className=' text-4xl font-bold text-blue-400 '>Technology</h2>
+  <h2 className=' text-4xl font-bold text-green-300 '>Technology</h2>
 </div>
 
     <div className='h-[80%] w-[90%]  absolute top-[-3%] rounded-2xl left-[5%] about '>
@@ -19,7 +19,7 @@ const About = () => {
 
       My journey in coding began with a curiosity for technology, which soon transformed into a passion for creating interactive and robust systems. Over time, I have developed strong skills in HTML, CSS, JavaScript, Node.js, and various other tools and frameworks. Staying updated with industry trends and exploring new technologies keeps me inspired and sharp.
 
-      One of my key achievements is deploying a chess project on Vercel. Using EJS for the frontend, this project highlights my ability to integrate backend logic with dynamic user interfaces. I’ve also worked with the Google Maps API, learning the importance of third-party integrations to enhance user experiences. Currently, I’m exploring WebRTC to build a real-time communication project similar to Google Meet or Zoom, diving deep into signaling servers, peer-to-peer connections, and real-time protocols.
+      One of my key achievements is deploying a chess project on Vercel. Using EJS for the frontend, this project highlights my ability to integrate backend logic with dynamic user interfaces. I've also worked with the Google Maps API, learning the importance of third-party integrations to enhance user experiences.
 
      Outside of development, I find inspiration in reading. The Alchemist by Paulo Coelho, one of my favorite books, encourages me to follow my dreams and embrace the journey of discovery. This mindset fuels my resilience and creativity in tackling challenges.
 
