@@ -8,7 +8,7 @@
 
 .skill-container{
 
-  background: linear-gradient(0deg, rgba(243,246,246,0.9136904761904762) 5%, rgba(144,202,249,1) 85%);
+  
   box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
 
 }
@@ -17,26 +17,30 @@
  
 }
 
-.bainer{
-  background: linear-gradient(0deg, #90caf9 5%, rgba(243,246,246,0.9136904761904762) 76%);
-}
+
 
 .about{
   box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
-  background-color: rgba(0, 119, 255, 0.108);
+  
 }
 
-.main{
-  background: linear-gradient(0deg, rgba(243,246,246,0.9136904761904762) 5%, rgba(144,202,249,1) 85%);
+.input-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #808080af;
+  cursor: pointer;
+  
 }
 
 
 
 
-.project{
-  background: linear-gradient(0deg, rgba(22, 146, 228, 0.515) 5%, rgba(255, 255, 255, 0.844) 85%);
 
-}
+
+
 
 
 

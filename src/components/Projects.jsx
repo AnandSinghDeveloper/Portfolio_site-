@@ -4,51 +4,82 @@ const projects = [
   {
     id: 1,
     title: "Chess Game",
-    description: "A backend project deployed on Vercel, using EJS for the frontend.",
-    techStack: ["Node.js", "EJS", "Vercel"],
-    link: "#",
+    description: "A web-based chess game with responsive design, multiplayer functionality, move validation, game history tracking, and an intuitive interface.",
+    techStack: ["Node.js ,","EJS ,","Socket.io ,","Express.js"],
+    link: "https://github.com/AnandSinghDeveloper/Chess_game-",
+    img : "https://img.freepik.com/free-vector/chessboard-concept-illustration_114360-23401.jpg?t=st=1739278137~exp=1739281737~hmac=d9393808685b3436a705cd61c8d64de3c83e1743fcdc9bf3173d75db083a422f&w=1060"
   },
   {
     id: 2,
-    title: "Google Maps Integration",
+    title: "Empoloyee Management System",
     description: "A project demonstrating location services and map integration.",
-    techStack: ["React", "Google Maps API"],
-    link: "#",
+    techStack: ["React", "localstorage"],
+    link: "https://github.com/AnandSinghDeveloper/Employee-management-system-",
+    img: "src/components/img/Good team-pana.png"
   },
   {
     id: 3,
-    title: "WebRTC Video Chat",
+    title: "Dairy writing app",
     description: "A real-time communication app similar to Google Meet or Zoom.",
-    techStack: ["WebRTC", "React", "Socket.io"],
+    techStack: ["Ejs ,", "Node.js ,", "Express.js"],
     link: "#",
+    img : "src/components/img/Bullet journal-amico.png"
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    description: "A real-time communication app similar to Google Meet or Zoom.",
+    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    link: "https://github.com/AnandSinghDeveloper/Password_Generator-",
+    img:"src/components/img/Security On-rafiki.png"
+  },
+  {
+    id: 3,
+    title: "Mini Spotify",
+    description: "A real-time communication app similar to Google Meet or Zoom.",
+    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    link: "https://github.com/AnandSinghDeveloper/spotify_miniProject",
+    img:"src/components/img/spotify-logo-transparent-free-png.webp"
+  },
+  {
+    id: 3,
+    title: "Tic Tac Toe",
+    description: "A real-time communication app similar to Google Meet or Zoom.",
+    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    link: "https://github.com/AnandSinghDeveloper/Tic-Tac-Toe",
+    img:"src/components/img/tangerines-pills-blue-background-flat-lay_169016-19201.jpg"
   },
 ];
 
 const Projects = () => {
   return (
-    <section className="w-full min-h-screen p-10 bg-gray-50 flex flex-col items-center">
-      <h2 className="text-4xl font-bold mb-8 text-gray-800">My Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
+    <section className="w-full min-h-screen p-10  flex flex-col items-center bg-zinc-100">
+      <h2 className="text-4xl font-bold mb-8 text-gray-800 hover:scale-120 transition-transform duration-300 hover:text-gray-800">My Projects</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl  ">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="border rounded-xl shadow-lg p-6 bg-white hover:scale-105 transition-transform duration-300"
+            className=" rounded-xl shadow-xl p-6  hover:scale-105 transition-transform duration-300 relative "
           >
-            <h3 className="text-2xl font-semibold mb-4 text-gray-700">{project.title}</h3>
+            <div className=' w-full h-full  absolute top-0 left-0 object-contain opacity-30  object-top overflow-hidden'>
+            <img className='w-full h-full object-contain' src={project.img} alt="project" />
+            </div>
+            <h3 className="text-2xl font-semibold mb-4  text-gray-700">{project.title}</h3>
             <p className="text-gray-600 mb-4">{project.description}</p>
             <div className="mb-4">
-              <span className="font-semibold text-gray-700">Tech Stack:</span>
-              <ul className="list-disc list-inside text-gray-600">
+              <span className="font-semibold text-gray-700">Tech Stack :
+              <span className=" px-2 font-medium text-sm  text-gray-600">
                 {project.techStack.map((tech, index) => (
-                  <li key={index}>{tech}</li>
+                  <span className="mr-2 " key={index}>{tech}</span>
                 ))}
-              </ul>
+              </span>
+              </span>
             </div>
             <a
               href={project.link}
               target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline hover:text-blue-800"
+              
+              className="text-blue-400  hover:text-blue-600"
             >
               View Project
             </a>
