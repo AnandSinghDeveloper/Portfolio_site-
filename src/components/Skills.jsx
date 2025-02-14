@@ -5,27 +5,16 @@ import { BsPeople } from "react-icons/bs";
 import { motion } from "framer-motion";
 import Frontend from './Frontend';
 import Backend from './Backend';
+import Tools from './Tools';
+import Soft_Skills from './Soft_Skills';
 
 
 
 const Skills = () => {
   const [frontendpanal, setFrontendpanal] = useState(true);
   const [backendpanal, setBackendpanal] = useState(false);
-
-
-
-
-//  useGSAP(function(){
-//   if(frontendpanal){
-//     gsap.to(frontendRef.current,{
-//       transform : 'translateY(0)'
-//     })
-//   }else{
-//     gsap.to(frontendRef.current,{
-//       transform : 'translateY(100%)'
-//     })
-//   }
-// },[frontendpanal])
+  const [toolspanal, setToolspanal] = useState(false);
+  const [softpanal, setSoftpanal] = useState(false);
 
 
   return (
@@ -38,7 +27,7 @@ const Skills = () => {
         />
       </div>
       <div className='w-[90%] h-[70%] flex justify-between items-center absolute'>
-        {/* Skill Boxes with Hover Animations */}
+       
         <div className='w-[50%] h-[70%] rounded-2xl flex flex-wrap gap-5 justify-around p-12'>
           {[
             { title: "Frontend", icon: <TbDeviceImacCode /> },
@@ -47,7 +36,7 @@ const Skills = () => {
             { title: "Soft Skills", icon: <BsPeople /> }
           ].map((skill, index) => (
             <motion.button 
-            onClick={() => {if(skill.title === "Frontend"){ setFrontendpanal(true); setBackendpanal(false)} else if(skill.title === "Backend") { setFrontendpanal(false); setBackendpanal(true) }}}
+            onClick={() => {if(skill.title === "Frontend"){ setFrontendpanal(true); setBackendpanal(false)} else if(skill.title === "Backend") { setFrontendpanal(false); setBackendpanal(true) } else if(skill.title === "Tools") { setFrontendpanal(false); setBackendpanal(false); setToolspanal(true) } else { setFrontendpanal(false); setBackendpanal(false); setToolspanal(false) } }}
               key={index}
               className='w-[40%] h-[30%] shadow-lg rounded-2xl  flex justify-center items-center relative skills cursor-pointer hover:shadow-xl hover:scale-105 transition-transform duration-300 '
               initial={{ opacity: 0, y: 50 }}
@@ -72,14 +61,14 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Frontend Skills with Interactive Sliders */}
+     
         <motion.div
           className='w-[50%] h-[95%] flex rounded-2xl mx-[5]  border-gray-500 flex-col  shadow-lg hover:scale-105 transition-transform overflow-hidden duration-300 '
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {frontendpanal ? <Frontend /> : <Backend setBackendpanal={setBackendpanal} setFrontendpanal={setFrontendpanal} />}
+          {frontendpanal ? <Frontend /> : backendpanal ? <Backend /> : toolspanal ? <Tools/> : <Soft_Skills/>} 
  
         
         </motion.div>

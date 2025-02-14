@@ -25,9 +25,9 @@ const Banner = () => {
             steps={[
               "Full Stack Developer ",
               3000,
-              "Frontend Specialist 🎨",
+              "Frontend Developer 🎨",
               3000,
-              "Backend Specialist 🔧",
+              "Backend Developer 🔧",
               3000,
               "Creative Problem Solver 🧠",
               3000,
