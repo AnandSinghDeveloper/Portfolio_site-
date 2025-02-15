@@ -34,27 +34,33 @@ const Header = () => {
           >
             <a
               className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transition-transform duration-300"
-              href="#"
+              href="/Bainner"
             >
               Home
             </a>
             <a 
               className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transition-transform duration-300"
-              href="#"
+              href="/about"
             >
               About
             </a>
             <a
               className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transition-transform duration-300"
-              href="#"
+              href="/skills"
             >
               Skill
             </a>
             <a
               className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transition-transform duration-300"
-              href="#"
+              href="/projects"
             >
               Project
+            </a>
+            <a
+              className="hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transition-transform duration-300"
+              href="/contact"
+            >
+              Connect
             </a>
             <motion.button
               whileHover={{ scale: 1.1 }}

@@ -7,7 +7,7 @@ import Typical from "react-typical";
 const Banner = () => {
   return (
     <div className="w-full h-screen flex justify-between items-center p-10 bg-zinc-100">
-      {/* Text Section */}
+      
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -36,7 +36,7 @@ const Banner = () => {
         </h1>
       </motion.div>
 
-      {/* Image Section */}
+    
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

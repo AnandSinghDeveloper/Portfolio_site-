@@ -12,7 +12,7 @@ const projects = [
   {
     id: 2,
     title: "Empoloyee Management System",
-    description: "A project demonstrating location services and map integration.",
+    description: "A React-based Employee Management System using LocalStorage for data storage, styled with Tailwind CSS for responsiveness..",
     techStack: ["React", "localstorage"],
     link: "https://github.com/AnandSinghDeveloper/Employee-management-system-",
     img: "src/components/img/Good team-pana.png"
@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     title: "Dairy writing app",
-    description: "A real-time communication app similar to Google Meet or Zoom.",
+    description: "A Diary Writer application built with Node.js and EJS, enabling users to write, save, and manage entries seamlessly.",
     techStack: ["Ejs ,", "Node.js ,", "Express.js"],
     link: "#",
     img : "src/components/img/Bullet journal-amico.png"
@@ -28,24 +28,24 @@ const projects = [
   {
     id: 3,
     title: "Password Generator",
-    description: "A real-time communication app similar to Google Meet or Zoom.",
-    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    description: "A Password Generator built with React js and tailwind, creating secure, customizable passwords with options for length and character types.",
+    techStack: [" React js", "Tailwind css"],
     link: "https://github.com/AnandSinghDeveloper/Password_Generator-",
     img:"src/components/img/Security On-rafiki.png"
   },
   {
     id: 3,
     title: "Mini Spotify",
-    description: "A real-time communication app similar to Google Meet or Zoom.",
-    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    description: "A Spotify-inspired project built with Vanilla JavaScript, offering music playback, dynamic playlists, and interactive user controls..",
+    techStack: ["html ,", "css ,","javascript"],
     link: "https://github.com/AnandSinghDeveloper/spotify_miniProject",
     img:"src/components/img/spotify-logo-transparent-free-png.webp"
   },
   {
     id: 3,
     title: "Tic Tac Toe",
-    description: "A real-time communication app similar to Google Meet or Zoom.",
-    techStack: ["WebRTC ,", "React ,", "Socket.io"],
+    description: "A Tic Tac Toe game built with Vanilla JavaScript, featuring interactive gameplay, dynamic UI updates, and win detection..",
+    techStack: ["Html ,", "Css ,", "Javascript"],
     link: "https://github.com/AnandSinghDeveloper/Tic-Tac-Toe",
     img:"src/components/img/tangerines-pills-blue-background-flat-lay_169016-19201.jpg"
   },
