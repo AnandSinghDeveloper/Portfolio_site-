@@ -15,7 +15,7 @@ const projects = [
     description: "A React-based Employee Management System using LocalStorage for data storage, styled with Tailwind CSS for responsiveness..",
     techStack: ["React", "localstorage"],
     link: "https://github.com/AnandSinghDeveloper/Employee-management-system-",
-    img: "src/components/img/Good team-pana.png"
+    img: "https://storyset.com/illustration/coworking/amico"
   },
   {
     id: 3,
