@@ -52,6 +52,8 @@ const projects = [
 ];
 
 const Projects = () => {
+
+  
   return (
     <section className="w-full min-h-screen p-10  flex flex-col items-center bg-zinc-100">
       <h2 className="text-4xl font-bold mb-8 text-gray-800 hover:scale-120 transition-transform duration-300 hover:text-gray-800">My Projects</h2>
