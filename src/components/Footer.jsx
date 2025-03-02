@@ -9,7 +9,7 @@ const Footer = () => {
 
   const [savedInfo, setSavedInfo] = useState(null);
 
-  // Load data from localStorage on component mount
+ 
   useEffect(() => {
     const savedData = localStorage.getItem("footerContactInfo");
     if (savedData) {
@@ -35,7 +35,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-gray-400 text-white py-15 px-5 relative flex justify-between">
       <div className="  w-[60%] bg-center ">
-        <img  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300" src="src/components/img/Completed-pana.png" alt="" />
+        <img  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300" src="public/Personal goals-bro.png" alt="" />
       </div>
       <div className="container mx-auto flex flex-col items-center space-y-8">
         <h2 className="text-3xl font-bold">Get in Touch</h2>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         )}
 
-        {/* Form */}
+        
         <form
           onSubmit={handleSubmit}
           className="w-full max-w-lg bg-gray-500 p-6 rounded-lg shadow-lg space-y-5"

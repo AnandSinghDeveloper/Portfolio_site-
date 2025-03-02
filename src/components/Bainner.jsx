@@ -42,7 +42,7 @@ const Banner = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.5 }}
         className="w-[70%] h-[80%] object-contain"
-        src="src/components/img/Operating system-bro.png"
+        src="public/Operating system-bro.png"
         alt="Banner"
       />
     </div>

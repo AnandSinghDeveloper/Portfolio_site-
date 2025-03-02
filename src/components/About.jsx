@@ -19,12 +19,12 @@ const About = () => {
       </motion.div>
 
       <motion.div
-        className="h-[80%] w-[90%] absolute top-[-3%] left-[5%] rounded-2xl about shadow-xl bg-gray-200 hover:scale-105 transition-transform duration-300 "
+        className="h-[80%] w-[90%] absolute top-[-3%] left-[5%] rounded-2xl about shadow-xl bg-gray-200  "
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        <div className="bg-[url(src/components/img/download.png)] bg-contain bg-center opacity-20 w-full h-full relative"></div>
+        <div className="bg-[url(public/download.png)] bg-contain bg-center opacity-20 w-full h-full relative"></div>
 
         <motion.div
           className="absolute top-[10%]"

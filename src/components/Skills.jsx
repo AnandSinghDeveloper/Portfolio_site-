@@ -22,7 +22,7 @@ const Skills = () => {
       <div className='bg-contain bg-center opacity-30 w-full h-full relative skill-container rounded-tl-2xl rounded-tr-2xl top-[-20]'>
         <img
           className='w-full h-full object-contain'
-          src="src/components/img/World Youth Skills Day-pana.png"
+          src="public/World Youth Skills Day-pana.png"
           alt=""
         />
       </div>
@@ -41,7 +41,7 @@ const Skills = () => {
               className='w-[40%] h-[30%] shadow-lg rounded-2xl  flex justify-center items-center relative skills cursor-pointer hover:shadow-xl hover:scale-105 transition-transform duration-300 '
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              // whileHover={{ scale: 1.1 }}
+             
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
               <h4 className='text-2xl font-semibold text-gray-500'>{skill.title}</h4>
