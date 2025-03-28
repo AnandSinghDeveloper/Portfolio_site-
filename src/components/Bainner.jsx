@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
+
 
 
 
@@ -19,19 +20,10 @@ const Banner = () => {
           I'm <span className="text-blue-400 taxt-5xl font-bold">Anand</span>
         </div>
         <h1 className="text-5xl font-semibold mx-10 pt-5 text-[#105245]">
-          <Typical
-            loop={Infinity}
-            smooth={500}
-            steps={[
-              "Full Stack Developer ",
-              3000,
-              "Frontend Developer 🎨",
-              3000,
-              "Backend Developer 🔧",
-              3000,
-              "Creative Problem Solver 🧠",
-              3000,
-            ]}
+          <Typewriter
+            
+            
+           words={['I am a Full Stack Developer', 'Frontend Developer🎨','Backend Developer💻', 'Creative Programmer']} loop={5} cursor cursorStyle="|"   
           />
         </h1>
       </motion.div>
