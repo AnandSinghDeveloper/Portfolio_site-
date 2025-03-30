@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 const Backend = () => {
+  //  console.log("hi");
+   
+
   return (
     <div>
       <div className='w-[100%] h-[10%] border-b-2 border-gray-500 rounded-tr-2xl rounded-tl-2xl flex justify-start items-center  '>
